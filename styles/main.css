@@ -73,18 +73,6 @@ body {
 
 /* VERWIJDEREN ONDERSTAANDE */
 
-.medium-card:first-child {
-    height: 505px;
-}
-
-.medium-card:nth-child(2) {
-    height: 200px;
-}
-
-.medium-card:nth-child(3) {
-    height: 265px;
-}
-
 
 /* -------- FOOTER -------- */
 

@@ -1,35 +1,38 @@
-// setup
+//----- SETUP -----//
 const data = {
     labels: [
-        'January',
-        'February',
-        'March',
-        'April',
-        'May',
-        'June'
+        '50 min ago',
+        '40 min ago',
+        '30 min ago',
+        '20 min ago',
+        '10 min ago',
+        'now'
     ],
     datasets: [{
-        label: 'My First Dataset',
-        data: [65, 59, 80, 81, 56, 55, 40],
+        label: 'Afstand van aarde (km × 10²)',
+        data: [0, 0, 22, 95, 165, 197, 250],
         fill: false,
-        borderColor: 'rgb(75, 192, 192)',
+        borderColor: '#ffffff',
+        backgroundColor: "#6697b8",
         tension: 0.1
     }]
 };
 
 const data2 = {
     labels: [
-        'Red',
-        'Blue',
-        'Yellow'
+        'Groente',
+        'Fruit',
+        'Brood',
+        'Vlees'
     ],
     datasets: [{
         label: 'My First Dataset',
-        data: [300, 50, 100],
+        data: [124, 157, 403, 296],
         backgroundColor: [
-            'rgb(255, 99, 132)',
-            'rgb(54, 162, 235)',
-            'rgb(255, 205, 86)'
+            '#005288',
+            '#3375a0',
+            '#6697b8',
+            '#80a9c4'
         ],
         hoverOffset: 4
     }]
@@ -37,24 +40,23 @@ const data2 = {
 
 const data3 = {
     labels: [
-        'Red',
-        'Blue',
-        'Yellow'
+        'Hamsters',
+        'Katten',
+        'Honden'
     ],
     datasets: [{
         label: 'My First Dataset',
-        data: [300, 50, 100],
+        data: [59, 12, 24],
         backgroundColor: [
-            'rgb(255, 99, 132)',
-            'rgb(54, 162, 235)',
-            'rgb(255, 205, 86)'
+            '#005288',
+            '#3375a0',
+            '#6697b8'
         ],
         hoverOffset: 4
     }]
 };
 
 //----- CONFIG -----//
-// config 
 const config1 = {
     type: 'line',
     data: data,

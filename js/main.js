@@ -1,11 +1,11 @@
 //----- SETUP -----//
 const data = {
     labels: [
-        '50 min ago',
-        '40 min ago',
-        '30 min ago',
-        '20 min ago',
-        '10 min ago',
+        '50 min geleden',
+        '40 min geleden',
+        '30 min geleden',
+        '20 min geleden',
+        '10 min geleden',
         'now'
     ],
     datasets: [{

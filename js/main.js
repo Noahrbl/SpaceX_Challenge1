@@ -74,19 +74,19 @@ const config3 = {
 };
 
 //----- RENDER -----//
-// render linechart
+// render linechart distance earth
 const distanceEarth = new Chart(
     document.getElementById('distanceEarth'),
     config1
 );
 
-// render piechart
+// render piechart food
 const food = new Chart(
     document.getElementById('food'),
     config2
 );
 
-// render piechart
+// render piechart animals
 const animals = new Chart(
     document.getElementById('animals'),
     config3
